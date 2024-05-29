@@ -50,9 +50,11 @@ The following pnpm commands are available for linting, building and running the 
 ## Endpoints
 
 ### User Management
-| [Register](#register) | `POST` | `/users/register` |
-| [Login](#login)       | `POST` | `/users/login`|
-| [Logout](#logout)     | `POST` | `/users/logout`|
+| Endpoints             | Methods | Path |
+| --------------------- | ------- | ---- |
+| [Register](#register) | `POST`  | `/users/register` |
+| [Login](#login)       | `POST`  | `/users/login`|
+| [Logout](#logout)     | `POST`  | `/users/logout`|
 
 #### Register
 
@@ -110,6 +112,8 @@ Response Code:
 - `200` -> Success
 
 ### Product Management
+| Endpoints                         | Methods  | Path |
+| --------------------------------- | -------- | ---- |
 | [Create Product](#create-product) | `POST`   | `/products` |
 | [Update Product](#update-product) | `PUT`    | `/products` |
 | [List Products](#list-product)    | `GET`    | `/products/:productId` |
@@ -221,6 +225,8 @@ Response Codes:
 - `500` -> Internal Server Error
 
 ### Upsell Management
+| Endpoints                         | Methods  | Path |
+| --------------------------------- | -------- | ---- |
 | [Create Upsell](#create-upsell)   | `POST`   | `/upsell-products` |
 | [Get Upsell](#get-upsell)         | `GET`    | `/upsell-products/:productId` |
 | [Remove Upsell](#remove-upsell)   | `DELETE` | `/upsell-products/:productId/:upsellId` |
@@ -293,6 +299,8 @@ Response Codes:
 - `500` -> Internal Server Error
 
 ### Sales / Transactions
+| Endpoints                                 | Methods | Path |
+| ----------------------------------------- | ------- | ---- |
 | [Create Transaction](#create-transaction) | `POST` | `/transactions` |
 | [Get Transaction](#get-transaction)       | `GET` | `/transactions/:transactionId` |
 
